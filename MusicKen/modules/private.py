@@ -37,24 +37,24 @@ Managed by {Proud_Of_An_Indian}
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🔰 Cᴏᴍᴍᴀɴᴅ", callback_data=f"help+1"),
+                    InlineKeyboardButton("🔰Cᴏᴍᴍᴀɴᴅ🔰", callback_data=f"help+1"),
                     InlineKeyboardButton(
-                        "➕Aᴅᴅ Mᴇ Gʀᴏᴜᴩ ➕",
+                        "➕Aᴅᴅ Mᴇ Gʀᴏᴜᴩ➕",
                         url=f"https://t.me/Kiara_ro_Bot?startgroup=true",
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Gʀᴏᴜᴩ ✨", url=f"https://t.me/ASLIL_SOCIETY"
+                        "👥Gʀᴏᴜᴩ✨", url=f"https://t.me/ASLIL_SOCIETY"
                     ),
                     InlineKeyboardButton(
-                        "⚡ Cʜᴀɴɴᴇʟ📣", url=f"https://t.me/Kiara_support"
+                        "⚡Cʜᴀɴɴᴇʟ📣", url=f"https://t.me/Kiara_support"
                     ),
                 ],
                 [
                     InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"),
                     InlineKeyboardButton(
-                        "💵 Group 💫", url="https://t.me/The_Secret_worlds"
+                        "💵Group💫", url="https://t.me/The_Secret_worlds"
                     ),
                 ],
             ]
@@ -76,7 +76,7 @@ async def gstart(_, message: Message):
                         text="👥Gʀᴏᴜᴩ💫", url=f"https://t.me/KIARA_SUPPORT"
                     ),
                     InlineKeyboardButton(
-                        text="✨Cʜᴀɴɴᴇʟ 📣", url=f"https://t.me/THE_BLAZE_NETWORK"
+                        text="✨Cʜᴀɴɴᴇʟ📣", url=f"https://t.me/THE_BLAZE_NETWORK"
                     ),
                 ],
                 [
