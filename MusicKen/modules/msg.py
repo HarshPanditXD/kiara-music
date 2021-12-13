@@ -5,88 +5,87 @@ class Messages:
     HELP_MSG = [
         ".",
         f"""
-**👋🏻 Hai Selamat Datang Kembali Di [{PROJECT_NAME}](https://telegra.ph/file/ed136c19e7f6afddb4912.jpg)
+**👋🏻 Hi Welcome Back To [{PROJECT_NAME}](https://telegra.ph/file/ab14af8de37ff62bc425c.jpg)
 
-⚪️ {PROJECT_NAME} Dapat Memutar Musik Di Obrolan Suara Grup Anda Serta Obrolan Suara Saluran
+⚪️ {PROJECT_NAME} Can Play Music In Your Group Voice Chat As Well As Channel Voice Chat
 
-⚪️ Assistant Name >> @{ASSISTANT_NAME}\n\n☑️ Klik Selanjutnya Untuk Informasi Lebih Lanjut**
+⚪️ Assistant Name >> @{ASSISTANT_NAME}\n\n☑️ Click Next For More Information**
 """,
         f"""
-**🛠️ Pengaturan**
+**🛠️ Arrangement**
 
-1) Jadikan Bot Sebagai Admin
-2) Mulai Obrolan Suara / Vcg
-3) Kirim Perintah /userbotjoin
-• Jika Assistant Bot Bergabung Selamat Menikmati Musik, 
-• Jika Assistant Bot Tidak Bergabung Silahkan Tambahkan @{ASSISTANT_NAME} Ke Grup Anda Dan Coba Lagi
+1) Make Bot Admin
+2) Start Voice Chat / Vc
+3) Send Order /userbotjoin
+• If Assistant Bot Joins Congratulations Enjoy Music,
+• If Assistant Bot Not Joined Please Add @{ASSISTANT_NAME} Go To Your Group And Try Again
 
-**Untuk Saluran Music Play 📣**
+**For Music Play Channel 📣**
 
-1) Jadikan Bot Sebagai Admin Saluran
-2) Kirim /userbotjoinchannel Di Grup Tertaut
-3) Sekarang Kirim Perintah Di Grup Tertaut
+1) Make Bot As Channel Admin
+2) Submit /userbotjoinchannel In Linked Group
+3) Now Send Command In Linked Group
 """,
         """
-**🔰 Perintah**
+**🔰 Order**
 
-**=>> Memutar Lagu 🎧**
+**=>> Playing Song 🎧**
 
-• /play (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube
-• /ytplay (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube
-• /yt (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube
-• /p (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube
-• /lplay - Reply song yang ada di gc nanti akan otomatis di putar di vcg
-• /player: Buka menu Pengaturan pemain
-• /skip: Melewati trek saat ini
-• /pause: Jeda trek
-• /resume: Melanjutkan trek yang dijeda
-• /end: ​​Menghentikan pemutaran media
-• /current: Menampilkan trek yang sedang diputar
-• /playlist: Menampilkan daftar putar
+• /play (song name) - To Play the song you requested via youtube
+• /ytplay (song name) - To Play the song you requested via youtube
+• /yt (song name) - To Play the song you requested via youtube
+• /p (song name) - To Play the song you requested via youtube
+• /lplay - Reply songs on gc will be automatically played on vcg
+• /player: Open the Player settings menu
+• /skip: Skips the current track
+• /pause: Pause track
+• /resume: Resume a paused track
+• /end: ​​Stops media playback
+• /current: Displays the currently playing track
+• /playlist: Displays a playlist
 
-Semua Perintah Bisa Digunakan Kecuali Perintah /player /skip /pause /resume  /end Hanya Untuk Admin Grup
+ All Commands Can Be Used Except Command /player /skip /pause /resume /end Only For Group Admin
 
-**==>>Download Lagu 📥**
+**==>>Download song 📥**
 
-• /song [nama lagu]: Unduh audio lagu dari youtube
-""",
-        f"""
-**=>> Saluran Music Play 🛠**
+• /song [song name]: Download song audio from youtube
+ """,
+         f"""
+ =>> Music Play Channel
 
-⚪️ Hanya untuk admin grup tertaut:
+ ️ Only for linked group admins:
 
-• /cplay (nama lagu) - putar lagu yang Anda minta
-• /cplaylist - Tampilkan daftar yang sedang diputar
-• /cccurrent - Tampilkan sedang diputar
-• /cplayer - buka panel pengaturan pemutar musik
-• /cpause - jeda pemutaran lagu
-• /cresume - melanjutkan pemutaran lagu
-• /cskip - putar lagu berikutnya
-• /cend - hentikan pemutaran musik
-• /userbotjoinchannel - undang asisten ke obrolan Anda
+ • /cplay (song name) - play the song you requested
+ • /cplaylist - Show currently playing list
+ • /cccurrent - Show currently playing
+ • /cplayer - open the music player settings panel
+ • /cpause - pause song playback
+ • /cresume - resume song playback
+ • /cskip - play next song
+ • /cend - stop music playing
+ • /userbotjoinchannel - invite assistants to your chat
 
-⚪️ Jika Anda Tidak Suka Bermain Di Grup Tertaut:
+ ️ If You Don't Like Playing In Linked Group:
 
-1) Dapatkan ID Saluran Anda.
-2) Buat Grup Dengan Judul: Channel Music: ID_SALURAN_ANDA
-3) Tambahkan Bot Sebagai Admin Saluran Dengan Izin Penuh
-4) Tambahkan @{ASSISTANT_NAME} Ke Saluran Sebagai admin.
-5) Cukup Kirim Perintah Di Grup Anda
+ 1) Get your Channel ID.
+ 2) Create a Group With Title: Music Channel: YOUR_CHANNEL ID
+ 3) Add Bot As Channel Admin With Full Permission
+ 4) Add @{ASSISTANT_NAME} To Channel As admin.
+ 5) Just Send Order In Your Group
 
-**=>> Lebih Banyak Alat 🧑‍🔧**
-
-- /admincache: Memperbarui Info Admin Grup Anda. Coba Jika Bot Tidak Mengenali Admin
-- /userbotjoin: Undang @{ASSISTANT_NAME} Userbot Ke Grup Anda
-""",
-        f"""👋🏻 Hallo, Nama saya [{PROJECT_NAME}](https://telegra.ph/file/ed136c19e7f6afddb4912.jpg)
-Dikekolah oleh {OWNER}
+ =>> More Tools
+ - /admincache: Update your Group Admin Info.  Try If Bot Doesn't Recognize Admin
+ - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot To Your Group
+ """,
+        f"""👋🏻 Hello, my name is Kiara [{PROJECT_NAME}](https://telegra.ph/file/ab14af8de37ff62bc425c.jpg)
+ Schooled by{OWNER}
 ・✦▭▭▭▭✧◦✦◦✧▭▭▭▭✦ ・
-☑️ Saya memiliki banyak fitur untuk anda yang suka lagu
-🔘 Memutar lagu di group 
-🔘 Memutar lagu di channel
-🔘 Mendownload lagu
-🔘 Mencari link youtube
-・✦▭▭▭▭✧◦✦◦✧▭▭▭▭✦ ・
-☑️ Klik tombol bantuan untuk informasi lebih lanjut
+️ I have a lot of fur for those of you who like songs
+☑️Play songs in the group
+🔘Play songs on channel
+🔘Download songs
+🔘Looking for youtube link
+️
+️ Click the help button for more information
 """,
     ]
