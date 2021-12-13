@@ -1,79 +1,79 @@
 {
-  "name": "Music Ken",
+  "name": "Kiara Music",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by MUSIK KU.",
-  "logo": "https://telegra.ph/file/b0abf1b9bec33146e4288.jpg",
+  "logo": "https://telegra.ph/file/753de9d023e666dda1b36.jpg",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/kenkansaja/Music-Ken",
+  "repository": "https://github.com/HarshPanditXD/Kiara-Music",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
-      "description": "Masukan String Session Pyrogram (P) untuk assistant yang naik ke VCG",
+      "description": "String Session Pyrogram",
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "Masukan Bot Token dari @BotFather",
+      "description": "Bot Token @BotFather",
       "required": true
     },
     "BOT_USERNAME": {
-      "description": "Username bot Anda tanpa @",
+      "description": "Username bot @",
       "required": true
     },
     "BOT_NAME": {
-      "description": "Nama Bot MusicPlayer Anda.",
+      "description": "Nama Bot MusicPlayer",
       "required": false,
       "value": ""
    },
     "SUPPORT_GROUP": {
-      "description": "Grup dukungan MusicPlayer Anda tanpa @ [skip ini jika Anda tidak punya]",
+      "description": "support Grup MusicPlayer",
       "required": false,
-      "value": "musikkugroup"
+      "value": "Kiara_Support"
     },
     "UPDATES_CHANNEL": {
-      "description": "Updates Channel tanpa @ [skip ini jika Anda tidak punya]",
+      "description": "Updates Channel @ [FILL THE CHANNEL]",
       "required": false,
-      "value": "musikkuchannel"
+      "value": "THE_SECRET_WORLDS"
     }, 
     "PROJECT_NAME": {
-      "description": "Nama proyek MusicPlayer Anda.",
+      "description": "Name Kiara MusicPlayer.",
       "required": false,
-      "value": "MUSIK KU"
+      "value": "KIARA PROJECT"
     },
     "ASSISTANT_NAME": {
       "description": "Username Telegram asisten MusicPlayer Anda tanpa @.",
       "required": true
     },
     "OWNER": {
-      "description": "Masukan Nama atau Username Telegram",
+      "description": "NamE Username Telegram",
       "required": true
     },
     "ARQ_API_KEY": {
-      "description": "Ambil api dari bot telegram » t.me/ARQRobot atau @ARQRobot",
+      "description": "arq api fill bot telegram » t.me/ARQRobot atau @ARQRobot",
       "required": true
     },    
     "BG_IMAGE": {
       "description": "Custom Background Play Musik Gunakan Foto yang Transparant format .png / .jpg",
       "required": false,
-      "value": "https://telegra.ph/file/aafce7ef46a06e70f08b8.png"
+      "value": "https://telegra.ph/file/c256c969058325e497578.jpg"
     },        
     "API_ID": {
-      "description": "Masukan APP ID Silahkan Ambil dari my.telegram.org/apps atau @Kenkanrobot",
+      "description": "API ID  my.telegram.org/apps @Kenkanrobot",
       "required": true
     },   
     "API_HASH": {
-      "description": "Masukan API HASH Silahkan Ambil dari my.telegram.org/apps atau @Kenkanrobot",
+      "description": "API HASH my.telegram.org/apps @Kenkanrobot",
       "required": true
     },
     "PMPERMIT": {
-      "description": "Ubah untuk mematikan PMPERMIT",
+      "description": "PMPERMIT",
       "required": false,
       "value": "ENABLE"
     }, 
     "SUDO_USERS": {
-      "description": "Daftar User ID Telegram pengguna dihitung sebagai admin di semua tempat (pemisah menggunakan space)",
+      "description": "User ID Telegram",
       "required": true
     },
     "DURATION_LIMIT": {
-      "description": "Batas durasi audio maksimal untuk download (minutes).",
+      "description": "audio download (minutes).",
       "required": true,
       "value": "300"
     }
