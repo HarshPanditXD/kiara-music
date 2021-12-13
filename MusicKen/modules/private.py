@@ -21,18 +21,17 @@ logging.basicConfig(level=logging.INFO)
 @Client.on_message(filters.command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_sticker(
-        "CAACAgUAAxkBAAFF-KFg-jaEvlhu_kNknYQjxsuyDvp--AACjAMAAtpWSVeocCICILIfRSAE"
+        ""
     )
     await message.reply_text(
-        f"""👋🏻 Hello, My name is [{PROJECT_NAME}](https://telegra.ph/file/ed136c19e7f6afddb4912.jpg)
-Managed by {OWNER}
+        f"""👋🏻 Hello, My name is [{PROJECT_NAME}](https://telegra.ph/file/80ec6513ad88509fa2f2e.jpg)
+Managed by {Proud_Of_An_Indian}
 ️
-️ I have a lot of fur for those of you who like songs
-Play songs in the group
-Play songs on channel
-Download songs
-Looking for youtube link
-️
+️☑️ I have a lot of fur for those of you who like songs
+🔘 Play songs in the group
+🔘 Play songs on channel
+🔘 Download songs
+🔘 Looking for youtube link
 ️ Click the help button for more information
 """,
         reply_markup=InlineKeyboardMarkup(
