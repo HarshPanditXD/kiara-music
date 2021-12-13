@@ -24,38 +24,38 @@ async def start_(client: Client, message: Message):
         "CAACAgUAAxkBAAFF-KFg-jaEvlhu_kNknYQjxsuyDvp--AACjAMAAtpWSVeocCICILIfRSAE"
     )
     await message.reply_text(
-        f"""👋🏻 Hello, My name is [{PROJECT_NAME}](https://telegra.ph/file/80ec6513ad88509fa2f2e.jpg)
-Managed by {}
-️
-️☑️ I have a lot of fur for those of you who like songs
-🔘 Play songs in the group
-🔘 Play songs on channel
-🔘 Download songs
-🔘 Looking for youtube link
-
-️ Click the help button for more information
+        f"""👋🏻 Hallo, Nama saya [{PROJECT_NAME}](https://telegra.ph/file/ed136c19e7f6afddb4912.jpg)
+Dikekolah oleh {OWNER}
+・✦▭▭▭▭✧◦✦◦✧▭▭▭▭✦ ・
+☑️ Saya memiliki banyak fitur untuk anda yang suka lagu
+🔘 Memutar lagu di group 
+🔘 Memutar lagu di channel
+🔘 Mendownload lagu
+🔘 Mencari link youtube
+・✦▭▭▭▭✧◦✦◦✧▭▭▭▭✦ ・
+☑️ Klik tombol bantuan untuk informasi lebih lanjut
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🔰Cᴏᴍᴍᴀɴᴅ🔰", callback_data=f"help+1"),
+                    InlineKeyboardButton("⚔️ ʙᴀɴᴛᴜᴀɴ", callback_data=f"help+1"),
                     InlineKeyboardButton(
-                        "➕Aᴅᴅ Mᴇ Gʀᴏᴜᴩ➕",
-                        url=f"https://t.me/Kiara_ro_Bot?startgroup=true",
+                        "ᴛᴀᴍʙᴀʜᴋᴀɴ ➕",
+                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥Gʀᴏᴜᴩ✨", url=f"https://t.me/ASLIL_SOCIETY"
+                        "👥 ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "⚡Cʜᴀɴɴᴇʟ📣", url=f"https://t.me/Kiara_support"
+                        "ᴄʜᴀɴɴᴇʟ 📣", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"),
                     InlineKeyboardButton(
-                        "💵Group💫", url="https://t.me/The_Secret_worlds"
+                        "💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip"
                     ),
                 ],
             ]
@@ -71,13 +71,13 @@ async def gstart(_, message: Message):
         caption=f"""**🔴 {PROJECT_NAME} is online**""",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton(text="🔵 Owner", url=f"t.me/Proud_of_an_Indian")],
+                [InlineKeyboardButton(text="🔵 ᴏᴡɴᴇʀ", url=f"t.me/{OWNER}")],
                 [
                     InlineKeyboardButton(
-                        text="👥Gʀᴏᴜᴩ💫", url=f"https://t.me/KIARA_SUPPORT"
+                        text="👥 ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        text="✨Cʜᴀɴɴᴇʟ📣", url=f"https://t.me/THE_BLAZE_NETWORK"
+                        text="ᴄʜᴀɴɴᴇʟ 📣", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
