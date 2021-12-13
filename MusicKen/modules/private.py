@@ -24,17 +24,17 @@ async def start_(client: Client, message: Message):
         "CAACAgUAAxkBAAFF-KFg-jaEvlhu_kNknYQjxsuyDvp--AACjAMAAtpWSVeocCICILIfRSAE"
     )
     await message.reply_text(
-        f"""👋🏻 Hallo, Nama saya [{PROJECT_NAME}](https://telegra.ph/file/ed136c19e7f6afddb4912.jpg)
-Dikekolah oleh {OWNER}
+        f"""👋🏻 Hello, My name is [{PROJECT_NAME}](https://telegra.ph/file/80ec6513ad88509fa2f2e.jpg)
+ Managed by {OWNER}
+ ️
+☑️I have many features for those of you who like songs
+🔘Play songs in the group
+🔘Play songs on channel
+🔘Download songs
+🔘Looking for youtube links
 ・✦▭▭▭▭✧◦✦◦✧▭▭▭▭✦ ・
-☑️ Saya memiliki banyak fitur untuk anda yang suka lagu
-🔘 Memutar lagu di group 
-🔘 Memutar lagu di channel
-🔘 Mendownload lagu
-🔘 Mencari link youtube
-・✦▭▭▭▭✧◦✦◦✧▭▭▭▭✦ ・
-☑️ Klik tombol bantuan untuk informasi lebih lanjut
-""",
+☑️ Click the help button for more information
+ """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
