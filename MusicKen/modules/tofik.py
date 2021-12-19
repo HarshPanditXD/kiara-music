@@ -8,7 +8,7 @@ from MusicKen.config import BOT_USERNAME as bu
 from MusicKen.helpers.filters import command
 
 
-@Client.on_message(command(["asupan", f"asupan@{bu}"]))
+@Client.on_message(command(["Harsh", f"Harsh@{bu}"]))
 async def asupan(client, message):
     message.from_user.id
     message.from_user.first_name
@@ -24,7 +24,7 @@ async def asupan(client, message):
             message.chat.id, video=results, caption=f"Nih asupan {rpk} biar gak ngantuk"
         )
     except Exception:
-        await message.reply_text("Ada yang salah LOL...")
+        await message.reply_text("Something is wrong LOL......")
 
 
 @Client.on_message(command(["wibu", f"wibu@{bu}"]))
@@ -43,10 +43,10 @@ async def wibu(client, message):
             message.chat.id, video=results, caption=f"Paste bau si {rpk} wibu ternyata"
         )
     except Exception:
-        await message.reply_text("Ada yang salah LOL...")
+        await message.reply_text("Something is wrong LOL......")
 
 
-@Client.on_message(command(["chika", f"chika@{bu}"]))
+@Client.on_message(command(["baby", f"baby@{bu}"]))
 async def chika(client, message):
     message.from_user.id
     message.from_user.first_name
@@ -72,7 +72,7 @@ async def truth(client, message):
         results = f"{resp['message']}"
         return await message.reply_text(results)
     except Exception:
-        await message.reply_text("Ada yang salah LOL...")
+        await message.reply_text("Something is wrong LOL......")
 
 
 @Client.on_message(command(["dare", f"dare@{bu}"]))
