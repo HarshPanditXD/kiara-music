@@ -27,4 +27,4 @@ PMPERMIT = getenv("PMPERMIT", None)
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
-KENKAN = getenv("KENKAN", "https://telegra.ph/file/295332305ae7d35abf077.png")
+KENKAN = getenv("KENKAN", "https://telegra.ph/file/f819b0e13c279ff09e69b.jpg")
