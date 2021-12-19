@@ -384,7 +384,7 @@ async def m_cb(b, cb):
 @errors
 async def play(_, message: Message):
     global que
-    lel = await message.reply("🔄 **✌️🔎 Processing Song 🎧✌️**")
+    lel = await message.reply("✌️Ƥɤøƈɘssɩɳʛ✌️**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -474,18 +474,18 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton("📖 Pʟᴀʏʟɪꜱᴛ 💫", callback_data="playlist"),
                     InlineKeyboardButton(
-                        "💬 𝖦ʀᴏᴜᴘ 💫", url=f"https://t.me/UNIQUE_SOCIETY"
+                        "𝖦ʀᴏᴜᴘ💫", url=f"https://t.me/UNIQUE_SOCIETY"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "💌 Cʜᴀɴɴᴇʟ 📩", url=f"https://t.me/The_Furious_Network"
+                        "Cʜᴀɴɴᴇʟ📩", url=f"https://t.me/The_Furious_Network"
                     ),
                     InlineKeyboardButton(
-                        "📬 Cʜᴀᴛ Zᴏɴᴇ 📬", url="https://t.me/all_dear_comrade"
+                        "Cʜᴀᴛ Zᴏɴᴇ📬", url="https://t.me/all_dear_comrade"
                     ),
                 ],
-                [InlineKeyboardButton(text="🚫 Cʟᴏsᴇ 🗑️", callback_data="cls")],
+                [InlineKeyboardButton(text="Cʟᴏsᴇ🗑️", callback_data="cls")],
             ]
         )
         file_name = get_file_name(audio)
@@ -531,18 +531,18 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton("✌️Pʟᴀʏʟɪꜱᴛ✌️", callback_data="playlist"),
                     InlineKeyboardButton(
-                        "💬 𝖦ʀᴏᴜᴘ 💫", url=f"https://t.me/UNIQUE_SOCIETY"
+                        "𝖦ʀᴏᴜᴘ💫", url=f"https://t.me/UNIQUE_SOCIETY"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "💌 Cʜᴀɴɴᴇʟ 📩", url=f"https://t.me/The_Furious_Network"
+                        "Cʜᴀɴɴᴇʟ📩", url=f"https://t.me/The_Furious_Network"
                     ),
                     InlineKeyboardButton(
-                        "📬 Cʜᴀᴛ Zᴏɴᴇ 📬", url="https://t.me/all_Dear_comrade"
+                        "Cʜᴀᴛ Zᴏɴᴇ📬", url="https://t.me/all_Dear_comrade"
                     ),
                 ],
-                [InlineKeyboardButton(text="🗑 Cʟᴏsᴇ 🗑️", callback_data="cls")],
+                [InlineKeyboardButton(text="Cʟᴏsᴇ🗑️", callback_data="cls")],
             ]
         )
         requested_by = message.from_user.first_name
@@ -581,18 +581,18 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton("💫Pʟᴀʏʟɪꜱᴛ🎧", callback_data="playlist"),
                     InlineKeyboardButton(
-                        "💬 𝖦ʀᴏᴜᴘ 💫", url=f"https://t.me/UNIQUE_SOCIETY"
+                        "𝖦ʀᴏᴜᴘ💫", url=f"https://t.me/UNIQUE_SOCIETY"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "💌 Cʜᴀɴɴᴇʟ 📩", url=f"https://t.me/THE_FURIOUS_NETWORK"
+                        "Cʜᴀɴɴᴇʟ📩", url=f"https://t.me/THE_FURIOUS_NETWORK"
                     ),
                     InlineKeyboardButton(
-                        "📬 Cʜᴀᴛ Zᴏɴᴇ 📬", url="https://t.me/Love_x_poison"
+                        "Cʜᴀᴛ Zᴏɴᴇ📬", url="https://t.me/Love_x_poison"
                     ),
                 ],
-                [InlineKeyboardButton(text="🗑Cʟᴏsᴇ 🗑️", callback_data="cls")],
+                [InlineKeyboardButton(text="🗑Cʟᴏsᴇ🗑️", callback_data="cls")],
             ]
         )
         requested_by = message.from_user.first_name
