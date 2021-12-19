@@ -123,13 +123,13 @@ async def playlist(client, message):
         temp.append(t)
     now_playing = temp[0][0]
     by = temp[0][1].mention(style="md")
-    msg = "**Lagu Yang Sedang dimainkan** di {}".format(message.chat.title)
+    msg = "**Current Song** di {}".format(message.chat.title)
     msg += "\n• " + now_playing
     msg += "\n• Req by " + by
     temp.pop(0)
     if temp:
         msg += "\n\n"
-        msg += "**Antrian Lagu**"
+        msg += "**Song Queue**"
         for song in temp:
             name = song[0]
             usr = song[1].mention(style="md")
@@ -141,17 +141,17 @@ async def playlist(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "💬 Gʀᴏᴜᴘ 💫", url=f"https://t.me/UNIQUE_SOCIETY"
                     ),
                     InlineKeyboardButton(
-                        "💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"
+                        "💌 Cʜᴀɴɴᴇʟ 📩", url=f"https://t.me/https://t.me/THE_FURIOUS_NETWORK"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip"
+                        "📬 Cʜᴀᴛ Zᴏɴᴇ 📬", url="https://t.me/LOVE_X_POISON"
                     ),
-                    InlineKeyboardButton(text="🗑 ᴛᴜᴛᴜᴘ", callback_data="cls"),
+                    InlineKeyboardButton(text="🗑️ Cʟᴏsᴇ 🗑️", callback_data="cls"),
                 ],
             ]
         ),
@@ -164,12 +164,12 @@ async def playlist(client, message):
 def updated_stats(chat, queue, vol=150):
     if chat.id in callsmusic.pytgcalls.active_calls:
         # if chat.id in active_chats:
-        stats = "Pengaturan dari **{}**".format(chat.title)
+        stats = "Settings of **{}**".format(chat.title)
         if len(que) > 0:
             stats += "\n\n"
             stats += "Volume : {}%\n".format(vol)
-            stats += "Lagu dalam antrian : `{}`\n".format(len(que))
-            stats += "Sedang memutar lagu : **{}**\n".format(queue[0][0])
+            stats += "Song in Queue : `{}`\n".format(len(que))
+            stats += "Playing a song : **{}**\n".format(queue[0][0])
             stats += "Requested by : {}".format(queue[0][1].mention)
     else:
         stats = None
@@ -183,7 +183,7 @@ async def ee(client, message):
     if stats:
         await message.reply(stats)
     else:
-        await message.reply("**Silahkan Nyalakan dulu VCG nya!**")
+        await message.reply("**Please turn on the VC first!**")
 
 
 @Client.on_message(filters.command("player") & filters.group & ~filters.edited)
@@ -202,7 +202,7 @@ async def settings(client, message):
         else:
             await message.reply(stats, reply_markup=r_ply("play"))
     else:
-        await message.reply("**Silahkan Nyalakan dulu VCG nya!**")
+        await message.reply("**Please turn on the VC first !**")
 
 
 @Client.on_callback_query(filters.regex(pattern=r"^(playlist)$"))
@@ -216,19 +216,19 @@ async def p_cb(b, cb):
     if type_ == "playlist":
         queue = que.get(cb.message.chat.id)
         if not queue:
-            await cb.message.edit("**Sedang tidak Memutar lagu**")
+            await cb.message.edit("**Not Playing a song**")
         temp = []
         for t in queue:
             temp.append(t)
         now_playing = temp[0][0]
         by = temp[0][1].mention(style="md")
-        msg = "**Lagu Yang Sedang dimainkan** di {}".format(cb.message.chat.title)
+        msg = "**Current Song** di {}".format(cb.message.chat.title)
         msg += "\n• " + now_playing
         msg += "\n• Req by " + by
         temp.pop(0)
         if temp:
             msg += "\n\n"
-            msg += "**Antrian Lagu**"
+            msg += "**Song Queue**"
             for song in temp:
                 name = song[0]
                 usr = song[1].mention(style="md")
@@ -240,17 +240,17 @@ async def p_cb(b, cb):
                 [
                     [
                         InlineKeyboardButton(
-                            "💬 ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"
+                            "💬 Gʀᴏᴜᴘ 💫", url=f"https://t.me/UNIQUE_SOCIETY"
                         ),
                         InlineKeyboardButton(
-                            "💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"
+                            "💌 Cʜᴀɴɴᴇʟ 📩", url=f"https://t.me/THE_FURIOUS_NETWORK"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            "💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip"
+                            "📬 Cʜᴀᴛ Zᴏɴᴇ 📬", url="https://t.me/LOVE_X_POISON"
                         ),
-                        InlineKeyboardButton(text="🗑 ᴛᴜᴛᴜᴘ", callback_data="cls"),
+                        InlineKeyboardButton(text="🗑️ Cʟᴏsᴇ 🗑️", callback_data="cls"),
                     ],
                 ]
             ),
